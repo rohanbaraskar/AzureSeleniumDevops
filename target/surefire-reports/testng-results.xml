@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test automation regression suite" duration-ms="3" started-at="2020-10-14T10:33:01Z" finished-at="2020-10-14T10:33:01Z">
+  <suite name="Test automation regression suite" duration-ms="13107" started-at="2020-10-14T11:05:06Z" finished-at="2020-10-14T11:05:19Z">
     <groups>
     </groups>
-    <test name="fb-testcase" duration-ms="3" started-at="2020-10-14T10:33:01Z" finished-at="2020-10-14T10:33:01Z">
+    <test name="for loop-testcase" duration-ms="18" started-at="2020-10-14T11:05:06Z" finished-at="2020-10-14T11:05:06Z">
+      <class name="com.tests.Test123">
+        <test-method status="PASS" signature="numbers()[pri:0, instance:com.tests.Test123@7a5d012c]" name="numbers" duration-ms="7" started-at="2020-10-14T16:35:06Z" finished-at="2020-10-14T16:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numbers -->
+      </class> <!-- com.tests.Test123 -->
+    </test> <!-- for loop-testcase -->
+    <test name="for pot-testcase" duration-ms="18" started-at="2020-10-14T11:05:06Z" finished-at="2020-10-14T11:05:06Z">
+      <class name="com.tests.Sample">
+        <test-method status="PASS" signature="pot()[pri:0, instance:com.tests.Sample@38082d64]" name="pot" duration-ms="7" started-at="2020-10-14T16:35:06Z" finished-at="2020-10-14T16:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pot -->
+      </class> <!-- com.tests.Sample -->
+    </test> <!-- for pot-testcase -->
+    <test name="fb-testcase" duration-ms="13107" started-at="2020-10-14T11:05:06Z" finished-at="2020-10-14T11:05:19Z">
+      <class name="com.tests.LaunchBrowser">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.tests.LaunchBrowser@2acf57e3]" name="launch" duration-ms="13097" started-at="2020-10-14T16:35:06Z" finished-at="2020-10-14T16:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- com.tests.LaunchBrowser -->
     </test> <!-- fb-testcase -->
-    <test name="forloop-testcase" duration-ms="3" started-at="2020-10-14T10:33:01Z" finished-at="2020-10-14T10:33:01Z">
-    </test> <!-- forloop-testcase -->
   </suite> <!-- Test automation regression suite -->
 </testng-results>

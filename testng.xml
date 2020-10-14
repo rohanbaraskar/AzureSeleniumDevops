@@ -2,17 +2,21 @@
        thread-count="3" parallel="tests">
 
 <test name="fb-testcase">
-    <parameter name ="browser" value="chrome" />
     <classes>
             <class name="com.tests.LaunchBrowser"/>
 
     </classes>
 </test>
 
-    <test name="forloop-testcase">
-        <parameter name ="browser" value="chrome" />
+    <test name="for loop-testcase">
         <classes>
             <class name="com.tests.Test123"/>
+        </classes>
+    </test>
+
+    <test name="for pot-testcase">
+        <classes>
+            <class name="com.tests.Sample"/>
         </classes>
     </test>
 </suite>
