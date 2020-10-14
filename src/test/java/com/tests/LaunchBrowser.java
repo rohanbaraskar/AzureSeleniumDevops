@@ -20,7 +20,7 @@ public class LaunchBrowser {
 // Maximize browser
 
         driver.manage().window().maximize();
-
+         System.out.println("before Closing the driver");
         driver.close();
 
          System.out.println("Closing the driver");
