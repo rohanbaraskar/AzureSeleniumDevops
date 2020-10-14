@@ -4,13 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 
 public class LaunchBrowser {
 
     @Test
      public void launch() {
 
-        System.setProperty("webdriver.chrome.driver", "D:\\SeleniumAzureDevopsPipeline\\src\\main\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 
 // Initialize browser
         WebDriver driver = new ChromeDriver();

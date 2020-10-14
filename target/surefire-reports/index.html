@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Test_automation_regression_suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,16 +102,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Test_automation_regression_suite" title="com.tests.LaunchBrowser" hash-for-method="launch">launch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_automation_regression_suite" title="com.tests.Test123" hash-for-method="numbers">numbers</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_automation_regression_suite" title="com.tests.Sample" hash-for-method="pot">pot</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_automation_regression_suite -->
@@ -129,21 +119,6 @@
           <div class="suite-Test_automation_regression_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.tests.Sample</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="pot">
-                  </a> <!-- pot -->
-                  <span class="method-name">pot</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_automation_regression_suite-class-passed -->
-          <div class="suite-Test_automation_regression_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.tests.LaunchBrowser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -152,21 +127,6 @@
                   <a name="launch">
                   </a> <!-- launch -->
                   <span class="method-name">launch</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_automation_regression_suite-class-passed -->
-          <div class="suite-Test_automation_regression_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.tests.Test123</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="numbers">
-                  </a> <!-- numbers -->
-                  <span class="method-name">numbers</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +146,6 @@
       &lt;class name=&quot;com.tests.LaunchBrowser&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- fb-testcase --&gt;
-  &lt;test name=&quot;for loop-testcase&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.tests.Test123&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- for loop-testcase --&gt;
-  &lt;test name=&quot;for pot-testcase&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.tests.Sample&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- for pot-testcase --&gt;
 &lt;/suite&gt; &lt;!-- Test automation regression suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,12 +158,6 @@
             <ul>
               <li>
                 <span class="test-name">fb-testcase (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">for loop-testcase (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">for pot-testcase (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,24 +183,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'launch')
 data.setCell(0, 2, 'com.tests.LaunchBrowser')
-data.setCell(0, 3, 13097);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'numbers')
-data.setCell(1, 2, 'com.tests.Test123')
-data.setCell(1, 3, 7);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'pot')
-data.setCell(2, 2, 'com.tests.Sample')
-data.setCell(2, 3, 7);
+data.setCell(0, 3, 16281);
 window.suiteTableData['Test_automation_regression_suite']= { tableData: data, tableDiv: 'times-div-Test_automation_regression_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Test_automation_regression_suite">
               </div> <!-- times-div-Test_automation_regression_suite -->
             </div> <!-- times-div -->
@@ -281,20 +217,6 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.Test123</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">numbers</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.Sample</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">pot</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.LaunchBrowser</div> <!-- chronological-class-name -->
               <div class="test-method">
