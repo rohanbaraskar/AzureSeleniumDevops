@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test automation regression suite" duration-ms="4" started-at="2020-10-14T10:01:30Z" finished-at="2020-10-14T10:01:30Z">
+  <suite name="Test automation regression suite" duration-ms="3" started-at="2020-10-14T10:33:01Z" finished-at="2020-10-14T10:33:01Z">
     <groups>
     </groups>
-    <test name="fb-testcase" duration-ms="4" started-at="2020-10-14T10:01:30Z" finished-at="2020-10-14T10:01:30Z">
+    <test name="fb-testcase" duration-ms="3" started-at="2020-10-14T10:33:01Z" finished-at="2020-10-14T10:33:01Z">
     </test> <!-- fb-testcase -->
-    <test name="forloop-testcase" duration-ms="3" started-at="2020-10-14T10:01:30Z" finished-at="2020-10-14T10:01:30Z">
+    <test name="forloop-testcase" duration-ms="3" started-at="2020-10-14T10:33:01Z" finished-at="2020-10-14T10:33:01Z">
     </test> <!-- forloop-testcase -->
   </suite> <!-- Test automation regression suite -->
 </testng-results>

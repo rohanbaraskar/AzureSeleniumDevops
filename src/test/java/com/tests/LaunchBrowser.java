@@ -12,6 +12,7 @@ public class LaunchBrowser {
 // Initialize browser
         WebDriver driver = new ChromeDriver();
 
+         System.out.println("driver" +driver);
 // Open facebook
         driver.get("http://www.facebook.com");
 
