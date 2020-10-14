@@ -15,12 +15,15 @@ public class LaunchBrowser {
 // Open facebook
         driver.get("http://www.facebook.com");
 
+         System.out.println("Navigated to facebook page");
+
 // Maximize browser
 
         driver.manage().window().maximize();
 
         driver.close();
 
+         System.out.println("Closing the driver");
     }
 
 }
